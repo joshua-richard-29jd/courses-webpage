@@ -1,0 +1,324 @@
+body{
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #fff;
+}
+header h1{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+}
+header h1 a{
+    color: #5fcf80;
+    text-decoration: none;
+}
+
+/* <====== header ======> */
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#header {
+    background: #fff;
+    padding: 15px 0;
+    box-shadow: 0px 0 18px rgb(55 66 59 / 8%);
+}
+
+#header .logo {
+    color: #5fcf80;
+}
+
+#header .btn-primary {
+    border-radius: 50px;
+    margin-left: 22px;
+    background: #5fcf80;
+    border-style: none;
+}
+
+#navbar a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #37423b;
+    white-space: nowrap;
+    padding: 10px 0 10px 30px;
+}
+
+#header .mobile-nav-toggle  {
+    color: #37423b;
+    font-size: 28px;
+    cursor: pointer;
+    line-height: 0;
+}
+
+/* <-- header media queries --> */
+
+@media (min-width: 320px) {
+    #header nav {
+       display: none;
+    }
+
+    #header .btn-primary {
+        padding: 6px 18px;
+    }
+
+    #header .get-button {
+        text-align: end;
+        padding: 0;
+    }
+}
+
+@media (min-width: 576px) {
+    #header .mobile-nav-toggle  {
+       text-align: end;
+    }
+
+    #header .get-button {
+        text-align: end;
+        padding: 0;
+        margin-left: -7px;
+    }
+
+    #header .btn-primary {
+        padding: 6px 19px;
+        margin-right: 2px;
+        
+    }
+}
+
+@media (min-width: 768px) {
+
+    #header .btn-primary {
+        padding: 6px 19px;
+        margin-right: -7px;
+    }
+}
+
+@media (min-width: 992px) {
+    
+    #header nav {
+        display: initial;
+     }
+
+     .mobile-nav-toggle {
+         display: none;
+     }
+
+     #header .btn-primary {
+        margin-right: -126px;
+     }
+
+     #header nav {
+        margin-left: -30px;
+     }
+}
+
+@media (min-width: 1200px) {
+    
+    
+    #header .btn-primary {
+        margin-right: -107px;
+     }
+
+     #header .btn-primary {
+        padding: 8px 24px;
+    }
+
+     #header nav {
+        margin-left: -25px;
+    }
+
+    #header .btn-primary {
+        margin-right: -111px;
+    }
+    
+    #header .mobile-nav-toggle {
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 1400px) {
+
+    #header nav {
+        display: initial;
+     }
+
+    #header .get-button {
+        text-align: start;
+        margin-left: -20px;
+    }
+
+    #header .btn-primary {
+        padding: 8px 25px;
+    }
+
+    
+}
+
+/* <====== breadcrumbs ======> */
+
+.breadcrumb h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.breadcrumb p {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.breadcrumb {
+    margin-bottom: 0;
+}
+
+
+
+.hero{
+    background: url(../images/hero-bg.jpg) center;
+    background-size: cover;
+    position: relative;
+}
+.hero .hero-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.3);
+}
+.hero .container{
+    position: relative;
+}
+.hero .container .hero-row{
+    height: 100vh;
+    padding-top: 50px;
+}
+.hero h1{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero h2{
+    color: #eee;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.hero a{
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 50px;
+    padding: 10px 35px;
+}
+
+.hero a:hover{
+    background-color: #5fcf80;
+    border: 2px solid #5fcf80;
+}
+
+/* ABOUT-SECTION */
+
+.about-section h3{
+    color: #444444;
+    font-weight: 600;
+    font-size: 26px;
+    font-family: "Raleway", sans-serif;
+}
+.about-section p{
+    color: #444444;
+    font-size: 16px;
+}
+.about-section ul{
+    padding: 10px 0;
+}
+.about-section li{
+    list-style-type: none;
+    padding-bottom: 16px;
+}
+.about-section i{
+    position: relative;
+    top: 3px;
+    padding-right: 5px;
+    color: #5fcf80;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* X-Small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap */
+
+ /* Small devices (landscape phones, 576px and up - sm) */
+@media (min-width: 576px) {
+    
+}
+
+ /* Medium devices (tablets, 768px and up - md) */
+@media (min-width: 768px) {
+    .hero .container .hero-row{
+        height: 80vh;
+    }
+    .hero h1{
+        font-size: 48px;
+        line-height: 56px;
+     }  
+     .hero h2{
+        font-size: 24px;
+        line-height: 1.2;
+    } 
+}
+
+/* // Large devices (desktops, 992px and up - lg) */
+@media (min-width: 992px) { 
+ 
+}
+
+/* // Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) { 
+    .hero {
+        background-attachment: fixed;
+    }
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    
+ }
